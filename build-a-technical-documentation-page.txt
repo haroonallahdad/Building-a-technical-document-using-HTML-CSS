@@ -1,0 +1,247 @@
+<!-- HTML file starting -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Documentation-Page</title>
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <header>Python Documentation</header>
+      <a class="nav-link" id="intro.nav" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#Background_Knowledge">Background Knowledge</a>
+      <a class="nav-link" href="#Python">Python</a>
+      <a class="nav-link" href="#Hello_World">Hello World</a>
+      <a class="nav-link" href="#Variables">Variables</a>
+      <a class="nav-link" href="#Reference">Reference</a>
+    </nav>
+    <main id="main-doc">
+      
+      <!--First Section-->
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>Python is a popular programming language created by Guido van Rossum and released in 1991. It is used for system scripting, creating web applications, workflows, and connecting to database systems. Python allows the user to interact with the computer using simple commands without knowing underlying hardware and system-level operations. It is very easier to use compared to other languages. For example:</p>
+        <div class="list">
+          <ul>
+            <li>In C++ if we want to print Hello World!, we would have to type the following code atleast
+              <div id="code">
+                <code>#include &#60;iostream&#62;<br/>
+using namespace std;
+<br/><br/>
+
+int main() {<br/>
+    cout << "Hello World!"; <br/>
+    return 0;
+}               </code>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="list">
+          <ul>
+            <li>While in Python you can do the same work using simply this code:
+              <div id="code">
+                <code>print("Hello World!")</code>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Second Section-->
+      <section class="main-section" id="Background_Knowledge">
+      <header>Background Knowledge</header>
+      <p>Python is mostly used to teach beginner's, so it is rather a simple development language, specially easy for those whom have knowledge about other programming languages. If you are new to programming, these are the simple things you can learn before getting into python:</p>
+
+      <div class="list">
+        <ul>
+          <li>Basic Pseduocode knowledge</li>
+          <li>Basic Algorithm Understanding</li>
+          <li>Basic Math operations knowledge</li>
+          <li>Mathematical Formula's knowledge</li>
+          <li>Computer usage knowledge</li>
+          <li>Should learn on how to search on search browsers</li>
+      </div>
+      </section>
+
+      <p style="margin-bottom: -50px;">
+
+      <!--Third Section-->
+      <section class="main-section" id="Python">
+      <header>Python</header>
+      <p>Python is widely used for game development, app development and web based application developments. Python is also used in advance fields of AI Development, Therefore Python is a very powerful language which is used for basic to advanced level programming. Python was also regarded as the most paying language of 2022 by <a href="https://www.geeksforgeeks.org/7-highest-paying-programming-languages-for-freelancers-in-2022/" class="linking-web" target="_blank">geeksforgeeks</a>. It is also one of the most used programming languages in the world. So if you are looking for a potential programming language to work in, lookout for <strong>Python!</strong></p>
+      </section>
+
+      <!--Forth Section-->
+      <section class="main-section" id="Hello_World">
+      <header>Hello World</header>
+      <p>As I showed you before, we would start our Python course by learning, on how to program Hello World! So let's start:</p>
+      <p>
+        In Python, the command print tells the program to display words or numbers on the screen. Here's a line of code that tells Python to display the words</p>
+      <p>“Hello, World!”</p>
+      <p>print("Hello, World!")</p>
+      <p>print is a keyword—that is, a word that has special meaning for Python. It means, "Display what’s inside the parentheses." Note that print isn't capitalized. If you capitalize it, the program won’t run. The parentheses are a special requirement of Python, one that you'll soon get used to. You'll be typing parentheses over and over again, in all kinds of
+        Python statements.
+        In coding, the quoted text in the line above—"Hello, World!"—is called a
+        text string or simply a string. The name makes sense: it's a string of characters.
+        When Python displays a string on the screen, the quotation marks don't
+        display. They’re only in your code to tell Python that it’s dealing with a string.
+        Note that the opening parenthesis is jammed up against the keyword print,
+        and the opening quotation mark is hugging the opening parenthesis. You could
+        space it out, writing...
+        print ( "Hello, World!" )
+      </span>
+      </section>
+
+      <!--Fifth Section-->
+      <section class="main-section" id="Variables">
+      <header>Variables</header>
+      <p>ariables are containers for storing data values. Python has no command for declaring a variable. A variable is created the moment you first assign a value to it.</p>
+      <div id="code">
+        <code>x = 5<br/>
+        y = "John"<br/>
+        print(x)<br/>
+        print(y)<br/>
+        </code>
+      </div>
+
+      <p>Variables do not need to be declared with any particular type, and can even change type after they have been set.</p>
+      <div id="code">
+        <code>
+          x = 4  # x is of type int<br/>
+          x = "Sally" # x is now of type str<br/>
+          print(x)
+        </code>
+      </div>
+
+      </section>
+
+      <!--Seventh Section-->
+      <section class="main-section" id="Reference">
+      <header>Reference</header>
+      <p><div class="list"><ul><li>All the documentation and information mentioned in this document is taken from<a href="https://www.asmarterwaytolearn.com/python/1.html" target="_blank" class="linking-web"> a smart way to learn website</a>, <a href="https://www.w3schools.com/" target="_blank" class="linking-web">W3Schools</a> and Copilot.</a></li></ul></div></p>
+
+      <p>Go to an online python compiler and paste this code, Thanks!</p>
+      <div id="code">
+        <code>
+          print("Thanks, and do enjoy learning Python!")
+        </code>
+      </div>
+
+      </section>
+
+    </main>
+  </body>
+</html>
+
+<!-- HTML file Ending -->
+
+<!-- CSS file starting -->
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: helvetica !important;
+  margin: 0;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 330px;
+  height: 100%;
+  background-color: #FFFFFF;
+  overflow: auto;
+  border: 3px solid #4d4c4c;
+  display: block;
+}
+
+#navbar header {
+  display: block;
+  padding: 10px 25px;
+  font-size: 1.7em;
+  color: #000000;
+  background-color: #FFFFFF;
+  border-bottom: 1.5px solid #4d4c4c;
+}
+
+.main-section header {
+  font-size: 1.6em;
+}
+
+.main-section p {
+  margin-left: 15px;
+  color: #4d4c4c;
+  opacity: 3.5;
+}
+
+#code {
+  background-color: #F7F7F7;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #F7F7F7;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.list {
+  margin-left: 30px;
+  color: #4d4c4c;
+  opacity: 3.5;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #4d4c4c;
+  display: flex;
+  padding: 10px 15px;
+  border-bottom: 1.5px solid #4d4c4c;
+  opacity: 3.5;
+}
+
+.main-section {
+  display: block;
+  margin-left: 350px;
+  width: calc(100% - margin-left);
+  overflow: auto;
+  padding: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 700px) {
+  #navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #4d4c4c;
+    margin-right: 0;
+  }
+
+  .main-section {
+    margin-left: 0;
+    width: 100%;
+    padding-top: 30px;
+  }
+}
+
+.linking-web {
+   color: #4d4c4c;
+}
+
+/* .nav-link:last-of-type {
+  padding: calc(100vh - (.nav-link:last-of-type)::before);
+} */
+
+<!-- CSS file Ending -->
